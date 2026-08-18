@@ -10,6 +10,24 @@ header img {
     height: 100px;
     width:auto;
 }
+
+html { 
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
 /* font */
 roboto-condensed-<font> {
   font-family: "Roboto Condensed", sans-serif;
@@ -30,12 +48,14 @@ roboto-condensed-<font> {
 
 
 main { 
+    flex: 1 0 auto;
     padding: 2%;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5rem;
     background-color: rgb(143,143,143);
     text-align: left;
     overflow: auto;
+    
 }
 
 main img { 
@@ -45,20 +65,53 @@ main img {
     margin-right: 1em;
     
 }
-/* stuff I like stuff wow amazing */
+
+/* home page quick fix */
+.home-image {
+    clear: both;
+}
+
+.home-image img {
+    width: 350x;
+    height: auto;
+    display: block;
+    margin: 1em auto 0;
+}
+/* stuff I like */
+
+.like-item:nth-child(1) {
+    margin-bottom: none;
+    /* not nessecarily sure if this works */
+}
+
 .like-item {
     display: block;
     margin-bottom: 1em;
     min-height: 250px;
+    overflow: auto;
    
 }
 
 .like-item img {
     float: right;
-    height: 250px;
+    height: 275px;
     width: auto;
     border-radius: 10px;
     margin-left: 1em;
+}
+
+/* about me */ 
+.aboutme-image {
+    
+    clear: both;
+}
+
+.aboutme-image img {
+    width: 500px;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 1em auto 0;
 }
 /* footer stuff */
 footer {
