@@ -45,48 +45,21 @@ main img {
     margin-right: 1em;
     
 }
+/* stuff I like stuff wow amazing */
+.like-item {
+    display: block;
+    margin-bottom: 1em;
+    min-height: 250px;
+   
+}
 
-/* stuff I like page */
-    .like-images {
-        display: block;
-        height: 250px;
-        width: auto;
-        float: right;
-        margin-right: 3%;
-    }
-    
-    .like-images img {
-        margin-bottom: 1em;
-        border-radius: 50px;
-        }
-
-        .like-img-text {
-            float: left;
-            text-align: left;
-        }
-
-    @media screen and (max-width: 700px) {
-        .like-images {
-            display: block;
-            height: auto;
-            width: 250px;
-            float: right;
-            margin-right: 1em;
-            margin-top: 1em;
-            margin-bottom: 1em;
-        }
-
-        .like-images img {
-            margin-bottom: 1em;
-            border-radius: 50px;
-        }
-
-        .like-img-text {
-            float: left;
-            text-align: left;
-        }
-    }
-
+.like-item img {
+    float: right;
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 1em;
+}
 /* footer stuff */
 footer {
     float: center;
